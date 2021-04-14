@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/images">
+        <file>data/RCS_start_screen.jpg</file>
+        <file>data/icon.ico</file>
+    </qresource>
+</RCC>
