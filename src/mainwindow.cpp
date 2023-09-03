@@ -66,7 +66,6 @@ void MainWindow::on_actionNew_case_triggered()
         QFileDialog dialog(this);
         dialog.setWindowTitle("New case: Please select a directory with .bmp RDP cache images");
         dialog.setAcceptMode(QFileDialog::AcceptOpen);
-        dialog.setFileMode(QFileDialog::DirectoryOnly);
         dialog.setOption(QFileDialog::ShowDirsOnly, false);
         dialog.setViewMode(QFileDialog::Detail);
         if (dialog.exec() == QDialog::Accepted) {

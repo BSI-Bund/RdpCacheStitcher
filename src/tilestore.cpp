@@ -78,7 +78,7 @@ QString TileStore::loadTiles(QString dir)
             tileSize = t.size;
             useCounts.append(0);
             // Check for duplicate
-            uint hash = qHashBits(t.getImage().constBits(), t.getImage().byteCount());
+            uint hash = qHashBits(t.getImage().constBits(), t.getImage().sizeInBytes());
             if (imageHashes.contains(hash)) {
                 t.isDuplicate = true;
                 numDuplicates++;
