@@ -21,6 +21,7 @@
 
 #include <QPainter>
 #include <QMap>
+#include <QMouseEvent>
 
 const int RecommendationsLabel::CELL_MARGIN = 8;
 const int RecommendationsLabel::CELLS_MAX = 64;
